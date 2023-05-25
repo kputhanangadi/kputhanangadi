@@ -68,6 +68,7 @@ class GitHubBio:
         kevin.currently_working_on = ["Personal Website"]
         kevin.goals_2023 = ["Create projects and learn at least 5 new technologies."]
         kevin.hobbies = ["Hackathons", "Video Games", "Movies", "Stocks/Trading"]
+        
     def display_bio(kevin):
         bio_dict = kevin.__dict__
         for key, value in bio_dict.items():
