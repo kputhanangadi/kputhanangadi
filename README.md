@@ -55,47 +55,30 @@ class GitHubBio:
             "Game Development"
         ]
         kevin.technical_skills = [
-            "Python - Data Science & Machine Learning",
-            "Intern - Data Science & Machine Learning in Python",
-            "Intern - Internet Of Things",
-            "Intern - VLSI and FPGA Implementation"
+            "Pythong",
+            "MATLAB",
+            "C/C++",
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git"
         ]
-        kevin.currently_learning = ["Docker, Kubernetes and React Native"]
-        kevin.goals_2022 = ["Create 20+ Projects and learn at least 5 new Technologies."]
-        kevin.hobbies = ["Gaming", "Cinema", "Skateboarding", "Art", "Comedy"]
-        kevin.bio = {
-            '- 💼 I’m currently working for': {
-                'Convin.ai': 'https://convin.ai'
-            },
-            '- 🔭 I’m currently working on': {
-                'DarkSpider': 'https://github.com/PROxZIMA/DarkSpider',
-                'Prism': 'https://github.com/PROxZIMA/prism',
-                'Sweet-Pop': 'https://github.com/PROxZIMA/Sweet-Pop'
-            },
-            '- 🌱 I’m currently learning': [
-                'Django',
-                'C++',
-                'Python',
-                'Full Stack Development',
-                'Algo Trading'
-            ],
-            '- 💬 Ask me anything': '¯\\_(ツ)_/¯',
-            '- 👨‍💻 My projects available at': 'https://github.com/PROxZIMA?tab=repositories',
-            '- 📄 Know about my experiences': 'https://proxzima.dev/resume',
-            '- ⚡ Fun fact': 'Proxima Ce'
-        }
-        
+        kevin.currently_learning = ["Tensorflow"]
+        kevin.currently_working_on = ["Personal Website"]
+        kevin.goals_2023 = ["Create projects and learn at least 5 new technologies."]
+        kevin.hobbies = ["Hackathons", "Video Games", "Movies", "Stocks/Trading"]
     def display_bio(kevin):
-      bio_dict = kevin.__dict__
-      for key, value in bio_dict.items():
-          if isinstance(value, list):
-              print(key + ":")
-              [print(f"- {item}") for item in value]
-          elif isinstance(value, dict):
-              print(key + ":")
-              [print(f"- {k}: {v}") for k, v in value.items()]
-          else:
-              print(f"{key}: {value}")
+        bio_dict = kevin.__dict__
+        for key, value in bio_dict.items():
+            if isinstance(value, list):
+                print(key + ":")
+                [print(f"- {item}") for item in value]
+            elif isinstance(value, dict):
+                print(key + ":")
+                [print(f"- {k}: {v}") for k, v in value.items()]
+            else:
+                print(f"{key}: {value}")
 
 if __name__ == '__main__':
     GitHubBio_instance = GitHubBio()
