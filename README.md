@@ -23,50 +23,83 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
 ```python
-name: Kevin Puthanangadi
+class GitHubBio:
+    def __init__(kevin):
+        kevin.name = "Kevin Puthanangadi"
+        kevin.location = "Vancouver, BC"
+        kevin.internship_experience = [
+            {
+                "company":  "EPSON",
+                "position": "Software Development Intern",
+                "duration": "Summer 2023"
+            },
+            {
+                "company":  "ROBOKIDS",
+                "position": "Software Engineering Intern",
+                "duration": "Summer 2022"
+            }
+        ]
+        kevin.education = [
+            {
+                "university": "The University of British Columbia",
+                "major":      "Electrical and Computer Engineering",
+                "graduation": "May 2025"
+            }
+        ]
+        kevin.fields_of_interests = [
+            "Software Development",
+            "Machine Learning",
+            "Automonus Vehicles",
+            "Space Exploration",
+            "Game Development"
+        ]
+        kevin.technical_skills = [
+            "Python - Data Science & Machine Learning",
+            "Intern - Data Science & Machine Learning in Python",
+            "Intern - Internet Of Things",
+            "Intern - VLSI and FPGA Implementation"
+        ]
+        kevin.currently_learning = ["Docker, Kubernetes and React Native"]
+        kevin.goals_2022 = ["Create 20+ Projects and learn at least 5 new Technologies."]
+        kevin.hobbies = ["Gaming", "Cinema", "Skateboarding", "Art", "Comedy"]
+        kevin.bio = {
+            '- 💼 I’m currently working for': {
+                'Convin.ai': 'https://convin.ai'
+            },
+            '- 🔭 I’m currently working on': {
+                'DarkSpider': 'https://github.com/PROxZIMA/DarkSpider',
+                'Prism': 'https://github.com/PROxZIMA/prism',
+                'Sweet-Pop': 'https://github.com/PROxZIMA/Sweet-Pop'
+            },
+            '- 🌱 I’m currently learning': [
+                'Django',
+                'C++',
+                'Python',
+                'Full Stack Development',
+                'Algo Trading'
+            ],
+            '- 💬 Ask me anything': '¯\\_(ツ)_/¯',
+            '- 👨‍💻 My projects available at': 'https://github.com/PROxZIMA?tab=repositories',
+            '- 📄 Know about my experiences': 'https://proxzima.dev/resume',
+            '- ⚡ Fun fact': 'Proxima Ce'
+        }
+        
+    def display_bio(kevin):
+      bio_dict = kevin.__dict__
+      for key, value in bio_dict.items():
+          if isinstance(value, list):
+              print(key + ":")
+              [print(f"- {item}") for item in value]
+          elif isinstance(value, dict):
+              print(key + ":")
+              [print(f"- {k}: {v}") for k, v in value.items()]
+          else:
+              print(f"{key}: {value}")
 
-located_in: Vancouver, BC
-
-internship_experince:
-  [
-    "EPSON"
-    "Software Development Intern"
-    "Summer 2023"
-    "-----------------------------"
-    "ROBOKIDS"
-    "Software Engineering Intern"
-    "Summer 2022"
-  ]
-  
-education:
-  [
-    "The University of British Columbia"
-    "Electrical and Computer Engineering"
-    "Expected Graduation: May 2025"
-  ]
-
-fields_of_interests:
-  [
-    "Web Development",
-    "Data Science",
-    "Machine Learning",
-    "UI/UX",
-    "Game Development",
-    "DevOps",
-  ]
-technical_background:
-  [
-    "DevOps Solutions Architect",
-    "Intern - Data Science & Machine Learning in Python",
-    "Intern - Internet Of Things",
-    "Intern - VLSI and FPGA Implementation",
-  ]
-  
-currently_learning: ["Docker, Kubernetes and React Native"]
-2022 Goals: ["Create 20+ Projects and learn at least 5 new Technologies."]
-hobbies: ["Gaming", "Cinema", "Skateboarding", "Art", "Comedy"]
+if __name__ == '__main__':
+    GitHubBio_instance = GitHubBio()
+    GitHubBio_instance.display_bio()
 ```
 
 ## Stats📈
