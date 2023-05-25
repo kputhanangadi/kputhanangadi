@@ -8,21 +8,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Development+Engineering+Intern+@+EPSON;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
 </p>
 
-<!--
-**kputhanangadi/kputhanangadi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 ```python
 class GitHubBio:
     def __init__(kevin):
@@ -86,19 +71,13 @@ if __name__ == '__main__':
     GitHubBio_instance.display_bio()
 ```
 
-## My Stats
+## Some of My GitHub Stats
 <p align="center">
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kputhanangadi&show_icons=true&theme=chartreuse-dark&layout=compact&hide_border=true" alt="kputhanangadi" /> 
 <img width="56%" src="https://github-readme-streak-stats.herokuapp.com/?user=kputhanangadi&theme=highcontrast&hide_border=true" alt="kputhanangadi" />
 </p>
 
-## 📈 &nbsp;My GitHub History!</h2>
-![Snake animation](https://github.com/kputhanangadi/kputhanangadi/blob/output/github-contribution-grid-snake.svg)
-
-<div align="center">
-  <a href="#">
-    <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ffffff20&height=65&section=footer"/>
-  </a>
-</div>
-
-
+## Where to Find Me
+<p align="center">
+<img alt="Youtube" src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" /></a><a href="mailto:kputhanangadi@gmail.com" target="_blank"><a href="https://github.com/kputhanangadi" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a><a href="https://www.linkedin.com/in/kputhanangadi" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a><a href="https://youtube.com/@kputhanangadi" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a><a href="https://open.spotify.com/user/n9cckn20twtn2b5a3zhu0bme7" target="_blank"><img alt="Spotify" src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" /></a>
+</p>
