@@ -3,7 +3,7 @@
     <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ffffff20&height=65&section=header"/>
   </a>
 </div>
-<h1 align="center"> Nice to meet you, I'm Kevin</h1>
+<h1 align="center"> Nice to meet you, I'm Kevin!</h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Development+Engineering+Intern+@+EPSON;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
 </p>
@@ -55,7 +55,7 @@ class GitHubBio:
             "Game Development"
         ]
         kevin.technical_skills = [
-            "Pythong",
+            "Python",
             "MATLAB",
             "C/C++",
             "Java",
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     GitHubBio_instance.display_bio()
 ```
 
-## Stats📈
+## My Stats
 <p align="center">
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kputhanangadi&show_icons=true&theme=chartreuse-dark&layout=compact&hide_border=true" alt="kputhanangadi" /> 
 <img width="56%" src="https://github-readme-streak-stats.herokuapp.com/?user=kputhanangadi&theme=highcontrast&hide_border=true" alt="kputhanangadi" />
