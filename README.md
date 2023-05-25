@@ -3,22 +3,10 @@
     <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=ffffff20&height=65&section=header"/>
   </a>
 </div>
-
-### 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+To+Kevin's+Github;Second+line+of+text)](https://git.io/typing-svg)
-
-<div align="center">
-  <a href="https://linkedin.com/in/yousafesaeed">
-    <img alt="LinkedIn" src="https://raw.githubusercontent.com/yousafesaeed/yousafesaeed/main/assets/linkedin.svg" width="22px" hight="22px"/>
-  </a>&emsp;
-  <a href="https://twitter.com/yousafesaeed/">
-    <img alt="Twitter" src="https://raw.githubusercontent.com/yousafesaeed/yousafesaeed/main/assets/twitter.svg"  width="22px" hight="22px"/>
-  </a>&emsp;
-  <a href="mailto:kputhanangadi@gmail.com">
-    <img alt="Email" src="https://raw.githubusercontent.com/yousafesaeed/yousafesaeed/main/assets/email.svg" width="22px" hight="22px"/>
-  </a>
-</div>
+<h1 align="center"> Nice to meet you, I'm Kevin</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Development+Engineering+Intern+@+EPSON;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
+</p>
 
 <!--
 **kputhanangadi/kputhanangadi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
