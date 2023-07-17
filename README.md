@@ -83,5 +83,6 @@ if __name__ == '__main__':
   <a href="https://github.com/kputhanangadi" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/kputhanangadi" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:kputhanangadi@gmail.com"" target="_blank"><img alt="Email" src="https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://kputhanangadi.com" target="_blank"><img alt="Website" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
   <a href="https://open.spotify.com/user/n9cckn20twtn2b5a3zhu0bme7" target="_blank"><img alt="Spotify" src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" /></a>
 </p>
