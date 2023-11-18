@@ -15,6 +15,11 @@ class GitHubBio:
         kevin.location = "Vancouver, BC"
         kevin.internship_experience = [
             {
+                "company":  "UBC",
+                "position": "Machine Learning Research Assitant",
+                "duration": "Fall 2023"
+            },
+            {
                 "company":  "EPSON",
                 "position": "Software Development Intern",
                 "duration": "Summer 2023"
@@ -35,18 +40,16 @@ class GitHubBio:
         kevin.fields_of_interests = [
             "Software Development",
             "Machine Learning",
-            "Automonus Vehicles",
-            "Space Exploration",
-            "Game Development"
+            "Autonomous Vehicles",
         ]
         kevin.technical_skills = [
             "Python",
-            "MATLAB",
-            "C/C++",
             "Java",
-            "JavaScript",
-            "HTML",
-            "CSS",
+            "C#",
+            "C++",
+            "C",
+            "SQL",
+            "ARM64",
             "Git"
         ]
         kevin.currently_learning = ["Tensorflow"]
