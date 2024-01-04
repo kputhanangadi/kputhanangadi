@@ -15,8 +15,8 @@ class GitHubBio:
         kevin.location = "Vancouver, BC"
         kevin.internship_experience = [
             {
-                  "company":  "Boeing",
-                "position": "Software Development Intern",
+                "company":  "Boeing",
+                "position": "Software Engineering Intern",
                 "duration": "Winter 2024"
             },
             {
@@ -26,7 +26,7 @@ class GitHubBio:
             },
             {
                 "company":  "EPSON",
-                "position": "Software Development Intern",
+                "position": "Software Engineering Intern",
                 "duration": "Summer 2023"
             },
             {
@@ -59,20 +59,14 @@ class GitHubBio:
         ]
         kevin.currently_learning = ["Tensorflow"]
         kevin.currently_working_on = ["Personal Website"]
-        kevin.goals_2023 = ["Create projects and learn at least 5 new technologies."]
+        kevin.goals_2024 = ["Create projects and learn at least 5 new technologies."]
         kevin.hobbies = ["Hackathons", "Video Games", "Movies", "Stocks/Trading"]
         
     def display_bio(kevin):
         bio_dict = kevin.__dict__
         for key, value in bio_dict.items():
-            if isinstance(value, list):
-                print(key + ":")
-                [print(f"- {item}") for item in value]
-            elif isinstance(value, dict):
-                print(key + ":")
-                [print(f"- {k}: {v}") for k, v in value.items()]
-            else:
-                print(f"{key}: {value}")
+            print(key + ":")
+            [print(f"- {item}") for item in value]
 
 if __name__ == '__main__':
     GitHubBio_instance = GitHubBio()
