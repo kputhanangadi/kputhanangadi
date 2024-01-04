@@ -5,7 +5,7 @@
 </div>
 <h1 align="center"> Nice to meet you, I'm Kevin!</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Engineering+Intern+@+EPSON;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Engineering+Intern+@+Boeing;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
 </p>
 
 ```python
@@ -14,6 +14,11 @@ class GitHubBio:
         kevin.name = "Kevin Puthanangadi"
         kevin.location = "Vancouver, BC"
         kevin.internship_experience = [
+            {
+                  "company":  "Boeing",
+                "position": "Software Development Intern",
+                "duration": "Winter 2024"
+            },
             {
                 "company":  "UBC",
                 "position": "Machine Learning Research Assitant",
