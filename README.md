@@ -11,8 +11,6 @@
 ```python
 class GitHubBio:
     def __init__(kevin):
-        kevin.name = "Kevin Puthanangadi"
-        kevin.location = "Vancouver, BC"
         kevin.internship_experience = [
             {
                 "company":  "Boeing",
