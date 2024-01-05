@@ -47,26 +47,6 @@ class GitHubBio:
             "Machine Learning",
             "Autonomous Vehicles",
         ]
-        kevin.technical_skills = [
-            "Python",
-            "Java",
-            "C#",
-            "C++",
-            "C",
-            "SQL",
-            "ARM64",
-            "Git"
-        ]
-        kevin.currently_learning = ["Tensorflow"]
-        kevin.currently_working_on = ["Personal Website"]
-        kevin.goals_2024 = ["Create projects and learn at least 5 new technologies."]
-        kevin.hobbies = ["Hackathons", "Video Games", "Movies", "Stocks/Trading"]
-        
-    def display_bio(kevin):
-        bio_dict = kevin.__dict__
-        for key, value in bio_dict.items():
-            print(key + ":")
-            [print(f"- {item}") for item in value]
 
 if __name__ == '__main__':
     GitHubBio_instance = GitHubBio()
