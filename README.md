@@ -11,44 +11,32 @@
 ```python
 class GitHubBio:
     def __init__(kevin):
-        kevin.internship_experience = [
-            {
-                "company":  "Boeing",
-                "position": "Software Engineering Intern",
-                "duration": "Winter 2024"
-            },
-            {
-                "company":  "UBC",
-                "position": "Machine Learning Research Assitant",
-                "duration": "Fall 2023"
-            },
-            {
-                "company":  "EPSON",
-                "position": "Software Engineering Intern",
-                "duration": "Summer 2023"
-            },
-            {
-                "company":  "ROBOKIDS",
-                "position": "Software Engineering Intern",
-                "duration": "Summer 2022"
-            }
-        ]
-        kevin.education = [
-            {
-                "university": "The University of British Columbia",
-                "major":      "Electrical and Computer Engineering",
-                "graduation": "May 2025"
-            }
-        ]
-        kevin.fields_of_interests = [
-            "Software Development",
-            "Machine Learning",
-            "Autonomous Vehicles",
-        ]
+      kevin.experience = [
+        {
+          summer 2024: 'swe intern @ boeing',
+          winter 2024: 'swe intern @ boeing',
+          fall   2023: 'mle stuff  @ ubc',
+          summer 2023: 'swe intern @ epson',
+          summer 2022: 'swe intern @ robokids'
+        }
+      ]
+      kevin.education = [
+        {
+          university: 'the university of british columbia',
+          major:      'electrical and computer engineering',
+          graduation: 'may 2025'
+        }
+      ]
+      kevin.interests = [
+        {
+          tech stuff: 'ml/ai, data sci, back-end, infra, cloud',
+          fun stuff:  'table tennis, snowboarding, league of legends'
+        }
+      ]
 
-if __name__ == '__main__':
-    GitHubBio_instance = GitHubBio()
-    GitHubBio_instance.display_bio()
+    if __name__ == '__main__':
+        GitHubBio_instance = GitHubBio()
+        GitHubBio_instance.display_bio()
 ```
 
 ## Some of My GitHub Stats
