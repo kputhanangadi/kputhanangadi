@@ -5,7 +5,7 @@
 </div>
 <h1 align="center"> Nice to meet you, I'm Kevin!</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=Electrical+and+Computer+Eningeering+@+UBC;Software+Engineering+Intern+@+Boeing;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=18&center=true&vCenter=true&width=485&lines=EECS+@+UBC;Software+Engineering+Intern+@+Intel;Looking+Foward+to+Connecting+with+You!" alt="Electrical and Computer Eningeering @ UBC" />
 </p>
 
 ```python
@@ -13,6 +13,7 @@ class GitHubBio:
     def __init__(kevin):
       kevin.experience = [
         {
+          fall   2024: 'swe intern @ intel',
           summer 2024: 'swe intern @ boeing',
           winter 2024: 'swe intern @ boeing',
           fall   2023: 'mle stuff  @ ubc',
@@ -23,8 +24,8 @@ class GitHubBio:
       kevin.education = [
         {
           university: 'the university of british columbia',
-          major:      'electrical and computer engineering',
-          graduation: 'may 2025'
+          major:      'electrical engineering + comp sci',
+          graduation: 'may 2026'
         }
       ]
       kevin.interests = [
