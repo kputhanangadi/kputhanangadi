@@ -30,7 +30,7 @@ class GitHubBio:
       ]
       kevin.interests = [
         {
-          tech stuff: 'ml/ai, data sci, back-end, infra, cloud',
+          tech stuff: 'ml/ai, distributed systems, back-end, cloud',
           fun stuff:  'table tennis, snowboarding, league of legends'
         }
       ]
@@ -39,12 +39,6 @@ class GitHubBio:
         GitHubBio_instance = GitHubBio()
         GitHubBio_instance.display_bio()
 ```
-
-## Some of My GitHub Stats
-<p align="center">
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=kputhanangadi&show_icons=true&theme=chartreuse-dark&layout=compact&hide_border=true" alt="kputhanangadi" /> 
-<img width="56%" src="https://github-readme-streak-stats.herokuapp.com/?user=kputhanangadi&theme=highcontrast&hide_border=true" alt="kputhanangadi" />
-</p>
 
 ## Where to Find Me
 <p align="center">
