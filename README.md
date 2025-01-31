@@ -13,12 +13,12 @@ class GitHubBio:
     def __init__(kevin):
       kevin.experience = [
         {
+          summer 2025: 'swe intern @ apple',
           fall   2024: 'swe intern @ intel',
           summer 2024: 'swe intern @ boeing',
           winter 2024: 'swe intern @ boeing',
           fall   2023: 'mle stuff  @ ubc',
           summer 2023: 'swe intern @ epson',
-          summer 2022: 'swe intern @ robokids'
         }
       ]
       kevin.education = [
